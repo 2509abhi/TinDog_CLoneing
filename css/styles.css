@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+}
+.cw{
+  background-color: #ff4c68;
+  color: white;  
+}
+.wc{
+  background-color: #fff;
+}
+.tc{
+  text-align: center;
+}
+.top-class{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#home {
+    padding-bottom: 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* title */
+.container-fluid {
+  padding: 3% 15%;
+}
+.brname {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", serif;
+}
+.rotate {
+  width: 60%;
+  padding-top: 25px;
+  transform: rotate(25deg);
+  position: relative;
+  left: 85px;
+}
+.dbt2 {
+  margin-left: 20px;
+}
+#title {
+  height: 700px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+/* feature */
+.diel2 {
+  margin: 1.5rem auto;
+  padding: 0 1px;
+  text-align: center;
+}
+.imgfa1 {
+  color: #ef8172;
+  font-size: 50px;
+}
+.imgfa1:hover {
+  color: #ff4c68;
+}
+.mids {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.midsp {
+  color: #8f8f8f;
+  padding: 0 6rem;
+}
+#features {
+  background-color: #fff;
+  padding: 3rem;
+  position: relative;
+  z-index: 1;
+}
+/* testinomial */
+#testimonials {
+  background-color: #ef8172;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  border-radius: 100%;
+  height: 100px;
+  margin-right: 20px;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding: 7% 15%;
+}
+.imgpress {
+  margin: 5px;
+  height: 40px;
+  padding: 0 10px;
+}
+/* pricing */
+
+#pricing {
+  padding: 20px 40px;
+}
+.pricig-cil {
+  margin: 2% 0rem;
+}
+#cta {
+  height: 250px;
+  padding: 5rem 25rem;
+  font-family: "Montserrat";
+}
+.btn-md {
+  font-family: monospace;
+}
+#footer {
+  color: grey;
+  padding: 20px;
+}
+.fimg {
+  color: grey;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .rotate {
+    transform: rotate(0);
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+  }
+  .rotate1 {
+    position: static;
+    padding: 0;
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+    height: 1100px;
+  }
+  #cta {
+    height: 250px;
+    text-align: center;
+    padding: 2rem 10rem;
+    font-family: "Montserrat";
+  }
+}
